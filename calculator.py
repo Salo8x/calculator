@@ -13,7 +13,7 @@ class Calculator:
     def subtract(self, numbers):
         a = numbers[0]
         
-        for num in range(1, len(numbers)):
+        for num in range(1, len(numbers)):gg
             a = a - numbers[num]
             
         return a
