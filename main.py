@@ -1,6 +1,6 @@
 from calculator import Calculator
 
-print("Calculator is Running")
+print("Calculator is Running on main")
 
 c = Calculator()
 def display():
@@ -11,7 +11,7 @@ def display():
     
     if res == 'exit':
         print("Thank you for your time")
-        print("Calculator is exiting")
+        print("Calculator is exiting, thanks")
         return
     if res in operations:      
         try:
