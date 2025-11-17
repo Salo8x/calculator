@@ -11,6 +11,7 @@ def display():
     
     if res == 'exit':
         print("Thank you for your time")
+        print("Calculator is exiting")
         return
     if res in operations:      
         try:
