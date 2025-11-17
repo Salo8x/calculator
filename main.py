@@ -1,5 +1,6 @@
 from calculator import Calculator
 
+print("Calculator is Running in command shell")
 
 c = Calculator()
 def display():
